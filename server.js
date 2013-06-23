@@ -1,6 +1,6 @@
 var util = require('util'),
     connect = require('connect'),
-    port = 8080;
+    port = 5000;
 
 connect.createServer(connect.static(__dirname)).listen(port);
 util.puts('Listening on ' + port + '...');
